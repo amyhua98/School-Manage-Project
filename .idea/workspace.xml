@@ -3249,7 +3249,6 @@
       <change afterPath="$PROJECT_DIR$/../Library-Project/library/public/js/bootstrap.min.js.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Library-Project/library/public/js/jquery.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Library-Project/library/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/school/management/system/Student.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WorkOut-App/ahua_TabRemote.xcodeproj/project.pbxproj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WorkOut-App/ahua_TabRemote.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WorkOut-App/ahua_TabRemote.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
@@ -3293,7 +3292,6 @@
       <change afterPath="$PROJECT_DIR$/../ahua_Calc/ahua_Calc/Info.plist" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ahua_Calc/ahua_Calc/SceneDelegate.swift" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ahua_Calc/ahua_Calc/ViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -3337,8 +3335,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/school/management/system/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="131">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="e#554#555#0" expanded="true" />
                 <element signature="e#588#589#0" expanded="true" />
@@ -3395,6 +3393,12 @@
               <item name="School-Manage-Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="School-Manage-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="School-Manage-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -3402,7 +3406,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599691232080" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599754546442" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
@@ -3468,8 +3472,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/school/management/system/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="131">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="e#554#555#0" expanded="true" />
             <element signature="e#588#589#0" expanded="true" />
