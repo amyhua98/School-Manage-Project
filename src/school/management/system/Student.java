@@ -20,7 +20,7 @@ public class Student {
     }
 
     /**
-     * Return teacher's id
+     * Return student's id
      * @return id
      */
     public int getId(){
@@ -28,11 +28,35 @@ public class Student {
     }
 
     /**
-     * Returns teacher's id
+     * Returns student's id
      * @return name
      */
     public String getName() {
         return this.name;
+    }
+
+    /**
+     * Return student's grade
+     * @return
+     */
+    public int getGrade() {
+        return grade;
+    }
+
+    /**
+     * Return fees paid by the student
+     * @return
+     */
+    public int getFeesPaid() {
+        return feesPaid;
+    }
+
+    /**
+     * Returns fees total of the student
+     * @return
+     */
+    public int getFeesTotal() {
+        return feesTotal;
     }
 
     /**
@@ -45,10 +69,11 @@ public class Student {
 
     /**
      * Used to update the student's fees paid
-     * @param fees
+     * @param payments
      */
     public void updateFeesPaid (int payments){
         feesPaid +=payments;
     }
+
 }
 

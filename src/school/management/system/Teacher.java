@@ -31,7 +31,15 @@ public class Teacher {
     }
 
     /**
-     * Used to set the teacher's salary
+     * Returns the teacher's salary
+     * @return salary
+     */
+    public int getSalary(){
+        return this.salary;
+    }
+
+    /**
+     * Set the teacher's salary
      * @param salary
      */
     public void setSalary(int salary){
