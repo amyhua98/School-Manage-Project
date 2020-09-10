@@ -1,6 +1,6 @@
 package school.management.system;
 /*
-    The purpose of this class is to track students id, name, grade, fees paid and fees total
+    The purpose of this class is to track student's id, name, grade, fees paid and fees total.
  */
 
 public class Student {
@@ -17,6 +17,22 @@ public class Student {
         this.grade = grade;
         this.feesPaid = 0;
         this.feesTotal = 30000;
+    }
+
+    /**
+     * Return teacher's id
+     * @return id
+     */
+    public int getId(){
+        return this.id;
+    }
+
+    /**
+     * Returns teacher's id
+     * @return name
+     */
+    public String getName() {
+        return this.name;
     }
 
     /**
