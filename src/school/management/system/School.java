@@ -12,39 +12,67 @@ public class School {
     private int totalSpent;
 
     /**
-     * Return list of teachers
-     * @return teachers
+     *
+     * @return teachers list of teachers
      */
     public List<Teacher> getTeachers() {
         return teachers;
     }
 
-    public void setTeachers(List<Teacher> teachers) {
-        this.teachers = teachers;
+    /**
+     * Adds a teacher to the list of teachers
+     * @param teacher to be added
+     */
+    public void addTeachers(Teacher teacher) {
+        teachers.add(teacher);
     }
 
+    /**
+     *
+     * @return students list of students
+     */
     public List<Student> getStudents() {
         return students;
     }
 
-    public void setStudents(List<Student> students) {
-        this.students = students;
+    /**
+     * Adds a student to the list of students
+     * @param student to be added
+     */
+    public void addStudents(Student student) {
+        students.add(student);
     }
 
+    /**
+     *
+     * @return total money earned
+     */
     public int getTotalEarned() {
         return totalEarned;
     }
 
-    public void setTotalEarned(int totalEarned) {
-        this.totalEarned = totalEarned;
+    /**
+     * Update total money earned
+     * @param moneyEarned
+     */
+    public void updateTotalEarned(int moneyEarned) {
+        totalEarned += moneyEarned;
     }
 
+    /**
+     *
+     * @return total money spent
+     */
     public int getTotalSpent() {
         return totalSpent;
     }
 
-    public void setTotalSpent(int totalSpent) {
-        this.totalSpent = totalSpent;
+    /**
+     * Update money spent on the school from the teacher's salary only.
+     * @param moneySpent
+     */
+    public void setTotalSpent(int moneySpent) {
+        totalEarned -= moneySpent;
     }
 
     /**
