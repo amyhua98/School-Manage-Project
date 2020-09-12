@@ -26,6 +26,35 @@ public class Main {
         studentList.add(Naomi);
 
         School ghs = new School(teacherList, studentList);
-        System.out.println("GHS has earned " + ghs.getTotalEarned());
+        System.out.println("GHS has earned $" + ghs.getTotalEarned());
+
+        Teacher Megan = new Teacher(4, "Megan", 900);
+        ghs.addTeacher(Megan);
+
+        Tam.payFees(5000);
+        Alex.payFees(2000);
+        Naomi.payFees(6000);
+
+        Student Kayla = new Student(4, "Kayla", 7);
+        ghs.addStudent(Kayla);
+
+        System.out.println("GHS has earned $" + ghs.getTotalEarned());
+
+        System.out.println("-----MAKING SCHOOL PAY SALARY-----");
+        Lizzy.receiveSalary(Lizzy.getSalary());
+        System.out.println("GHS has spent for salary to " + Lizzy.getName() + " and now has $" + ghs.getTotalEarned());
+
+        Melissa.receiveSalary(Melissa.getSalary());
+        System.out.println("GHS has spent for salary to " + Melissa.getName() + " and now has $" + ghs.getTotalEarned());
+
+        Alan.receiveSalary(Alan.getSalary());
+        System.out.println("GHS has spent for salary to " + Alan.getName() + " and now has $" + ghs.getTotalEarned());
+
+        System.out.println(Tam);
+        System.out.println(Alan);
+
+        System.out.println(teacherList);
+        System.out.println(studentList);
+
     }
 }

@@ -8,8 +8,8 @@ import java.util.List;
 public class School {
     private List<Teacher> teachers;
     private List<Student> students;
-    private int totalEarned;
-    private int totalSpent;
+    private static int totalEarned;
+    private static int totalSpent;
 
     /**
      *
@@ -23,7 +23,7 @@ public class School {
      * Adds a teacher to the list of teachers
      * @param teacher to be added
      */
-    public void addTeachers(Teacher teacher) {
+    public void addTeacher(Teacher teacher) {
         teachers.add(teacher);
     }
 
@@ -39,7 +39,7 @@ public class School {
      * Adds a student to the list of students
      * @param student to be added
      */
-    public void addStudents(Student student) {
+    public void addStudent(Student student) {
         students.add(student);
     }
 
@@ -55,7 +55,7 @@ public class School {
      * Update total money earned
      * @param moneyEarned
      */
-    public void updateTotalEarned(int moneyEarned) {
+    public static void updateTotalEarned(int moneyEarned) {
         totalEarned += moneyEarned;
     }
 
@@ -71,7 +71,7 @@ public class School {
      * Update money spent on the school from the teacher's salary only.
      * @param moneySpent
      */
-    public void setTotalSpent(int moneySpent) {
+    public static void updateTotalSpent(int moneySpent) {
         totalEarned -= moneySpent;
     }
 

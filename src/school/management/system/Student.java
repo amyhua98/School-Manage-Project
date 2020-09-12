@@ -71,11 +71,23 @@ public class Student {
      * Used to update the student's fees paid
      * @param payments
      */
-    public void updateFeesPaid (int payments){
+    public void payFees (int payments){
         feesPaid +=payments;
+        School.updateTotalEarned(feesPaid);
     }
 
+    /**
+     *
+     * @return remaining fees left to paid
+     */
+    public int getRemainingFees(){
+        return feesTotal-feesPaid;
+    }
 
-
+    @Override
+    public String toString(){
+        return "Student's name: " + name +
+                "\nTotal fees paid so far: $" + feesPaid;
+    }
 }
 

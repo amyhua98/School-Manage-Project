@@ -3249,7 +3249,6 @@
       <change afterPath="$PROJECT_DIR$/../Library-Project/library/public/js/bootstrap.min.js.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Library-Project/library/public/js/jquery.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Library-Project/library/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/school/management/system/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WorkOut-App/ahua_TabRemote.xcodeproj/project.pbxproj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WorkOut-App/ahua_TabRemote.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WorkOut-App/ahua_TabRemote.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
@@ -3293,8 +3292,10 @@
       <change afterPath="$PROJECT_DIR$/../ahua_Calc/ahua_Calc/Info.plist" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ahua_Calc/ahua_Calc/SceneDelegate.swift" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ahua_Calc/ahua_Calc/ViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/school/management/system/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/school/management/system/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/school/management/system/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/school/management/system/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/school/management/system/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/school/management/system/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/school/management/system/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/school/management/system/Teacher.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -3325,12 +3326,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2678" />
+          <entry key="java" value="3626" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2678" />
+          <entry key="JAVA" value="3626" />
         </counts>
       </usages-collector>
     </session>
@@ -3340,13 +3341,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/school/management/system/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            <state relative-caret-position="540">
+              <caret line="86" column="4" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="90" selection-end-column="5" />
               <folding>
                 <element signature="e#1218#1219#0" expanded="true" />
                 <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1385#1386#0" expanded="true" />
-                <element signature="e#1420#1421#0" expanded="true" />
+                <element signature="e#1488#1489#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3355,8 +3356,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/school/management/system/Teacher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="750">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -3364,8 +3365,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/school/management/system/School.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+            <state relative-caret-position="269">
+              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
               <folding>
                 <element signature="e#476#477#0" expanded="true" />
                 <element signature="e#507#508#0" expanded="true" />
@@ -3391,8 +3392,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/school/management/system/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="254">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -3415,8 +3416,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/school/management/system/Teacher.java" />
         <option value="$PROJECT_DIR$/src/school/management/system/Student.java" />
+        <option value="$PROJECT_DIR$/src/school/management/system/Teacher.java" />
         <option value="$PROJECT_DIR$/src/school/management/system/School.java" />
         <option value="$PROJECT_DIR$/src/school/management/system/Main.java" />
       </list>
@@ -3462,7 +3463,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599844566688" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599930057359" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
@@ -3526,7 +3527,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32986626" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -3549,28 +3550,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/school/management/system/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        <state relative-caret-position="540">
+          <caret line="86" column="4" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="90" selection-end-column="5" />
           <folding>
             <element signature="e#1218#1219#0" expanded="true" />
             <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/school/management/system/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="750">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/school/management/system/School.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+        <state relative-caret-position="269">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
           <folding>
             <element signature="e#476#477#0" expanded="true" />
             <element signature="e#507#508#0" expanded="true" />
@@ -3594,8 +3595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/school/management/system/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="254">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
