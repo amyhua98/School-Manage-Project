@@ -32,7 +32,7 @@ public class Main {
         ghs.addTeacher(Megan);
 
         Tam.payFees(5000);
-        Alex.payFees(2000);
+        Alex.payFees(3000);
         Naomi.payFees(6000);
 
         Student Kayla = new Student(4, "Kayla", 7);
