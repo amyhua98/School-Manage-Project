@@ -31,7 +31,7 @@ public class Main {
         Teacher Megan = new Teacher(4, "Megan", 900);
         ghs.addTeacher(Megan);
 
-        Tam.payFees(5000);
+        Tam.payFees(5500);
         Alex.payFees(3000);
         Naomi.payFees(6000);
 
